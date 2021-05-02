@@ -36,11 +36,11 @@ img {
 }
 .topic {
     font-weight: 900;
-    width: 100%;
-    border-bottom: 3px solid;
-    padding-right: 100%;
+    min-width: 100%;
     margin-bottom: 4px;
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .dates {
     text-align: right;
@@ -58,4 +58,9 @@ a:hover {
 }
 .sup-header {
     font-weight: 900;   
+}
+hr {
+    color: darkslateblue;
+    background-color: darkslateblue;
+    height: 1px;
 }
