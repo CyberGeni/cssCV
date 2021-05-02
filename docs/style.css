@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: rgb(40, 51, 102);
+    text-align: center;
+    line-height: 4vh;
+}
+img {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.name {
+    color: white;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+}
+.personal-info {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.email{
+    padding: 10px;
+}
+.main {
+    margin: 30px;
+    color: rgb(40, 51, 102);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topic {
+    font-weight: 900;
+    min-width: 100%;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.dates {
+    text-align: right;
+    width: 100%;
+    display: inline-block;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 17px;
+}
+.sup-header {
+    font-weight: 900;   
+}
+hr {
+    color: darkslateblue;
+    background-color: darkslateblue;
+    height: 1px;
+}
