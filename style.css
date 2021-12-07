@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', 'Segoe UI';
+    font-weight: normal;
+    color: white
+}
+a {
+    text-decoration: none;
+}
+button {
+    background-color: transparent;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 48px;   
+}
+button:hover {
+    background-color: #59FFE1;
+    border: 1px solid dodgerblue;
+    transition: 300ms ease;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, #757275, #161316);
+    background-repeat: no-repeat;
+}
+header {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2em;
+    line-height: 100px;
+}
+.buttons {
+    display: flex;
+    width: 100%;
+    max-width: 650px;
+    
+}
+.buttons > * + * {
+    margin-left: 1.5em;
+}
+main {
+    display: flex;
+    flex-grow: 2 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 2em 0;
+    letter-spacing: 1px;
+}
+.border {
+    width: 50px;
+    height: 2px;
+    background-color: #59FFE1;
+    align-self: center;
+    margin-top: 0.3em;
+}
+.main-content {
+    max-width: 500px;
+}
+.experience {
+    border-top: 1px solid white;
+    padding: 1em 0;
+}
+.experience ul {
+    margin: 1.5em;
+    max-width: 500px;
+}
+.experience ul li {
+    margin-bottom: 0.5em;
+    font-weight: 400px;
+}
+section h3, aside h3 {
+    font-weight: 500;
+}
+.experience span {
+    font-weight: 300;
+    font-style: italic;
+    opacity: 0.9;
+}
+.time-frame span {
+    font-weight: 300;
+    font-style: normal !important;
+}
+aside {
+    max-width: 360px;
+    margin-bottom: 5em;
+}
+.awards {
+    margin-bottom: 1em;
+}
+.awards span {
+    font-weight: 300;
+    font-style: normal;
+    opacity: 0.9;
+}
+footer span {
+    line-height: 60px;
+    font-weight: 200px !important;
+}
+.content > * + * {
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+}
