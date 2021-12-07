@@ -105,6 +105,9 @@ aside {
     font-style: normal;
     opacity: 0.9;
 }
+footer {
+    text-align: center;
+}
 footer span {
     line-height: 60px;
     font-weight: 200px !important;
